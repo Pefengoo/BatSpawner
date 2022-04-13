@@ -1,0 +1,13 @@
+package me.Efe.CreeperSpawn;
+
+import org.bukkit.plugin.java.JavaPlugin;
+
+import me.Efe.CreeperSpawn.commands.CreeperCommands;
+
+,public class Main extends JavaPlugin {
+
+	@Override
+	public void onEnable() {
+		new CreeperCommands(this);
+	}
+}
