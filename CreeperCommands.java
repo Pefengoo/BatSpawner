@@ -25,7 +25,7 @@ public class CreeperCommands implements CommandExecutor{
 		World w = p.getWorld();
 		
 		for(int i = 0; i < 10; i++) {
-		    w.spawnEntity(loc, EntityType.CREEPER);
+		    w.spawnEntity(loc, EntityType.BAT);
 		}
 		
 		    return false;
