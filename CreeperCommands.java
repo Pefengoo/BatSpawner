@@ -1,4 +1,4 @@
-package me.Efe.CreeperSpawn.commands;
+package me.Efe.Bat.commands;
 
 import org.bukkit.Location;
 import org.bukkit.World;
@@ -8,14 +8,14 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.EntityType;
 import org.bukkit.entity.Player;
 
-import me.Efe.CreeperSpawn.Main;
+import me.Efe.Bat.Main;
 
-public class CreeperCommands implements CommandExecutor{
+public class BatCommands implements CommandExecutor{
 	private Main plugin;
 	
-	public CreeperCommands(Main plugin) {
+	public BatCommands(Main plugin) {
 		this.plugin = plugin;
-		plugin.getCommand("creeperspawn").setExecutor(this);
+		plugin.getCommand("batspawn").setExecutor(this);
 	}
 	
 	@Override
