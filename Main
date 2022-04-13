@@ -1,13 +1,13 @@
-package me.Efe.CreeperSpawn;
+package me.Efe.BatSpawn;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
-import me.Efe.CreeperSpawn.commands.CreeperCommands;
+import me.Efe.BatSpawn.commands.CreeperCommands;
 
 ,public class Main extends JavaPlugin {
 
 	@Override
 	public void onEnable() {
-		new CreeperCommands(this);
+		new BatCommands(this);
 	}
 }
